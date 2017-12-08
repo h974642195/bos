@@ -1,0 +1,137 @@
+.tools {
+	width: 12%;
+	margin-right: 3%;
+	font-size: 14px;
+	border: 1px solid #ccc
+}
+
+.tools ul,
+.user {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15%
+}
+
+.user {
+	border-bottom: 1px solid #ccc
+}
+
+.tools ul li a {
+	color: #000
+}
+
+.tools ul li {
+	line-height: 30px
+}
+
+.detals {
+	width: 84%;
+}
+
+.vip_card {
+	background-color: #a9a9a9;
+	width: 405px;
+	height: 235px;
+	border-radius: 6px;
+	color: #fff;
+	position: relative
+}
+
+.userhead img {
+	width: 40px;
+	vertical-align: middle;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff
+}
+
+.userhead {
+	position: absolute;
+	top: 20px;
+	left: 20px
+}
+
+.qrcode {
+	position: absolute;
+	top: 20px;
+	right: 20px
+}
+
+.vip_card_numb {
+	position: absolute;
+	bottom: 20px;
+	left: 20px
+}
+
+.vip_card+div {
+	font-size: 14px;
+	margin-left: 20px;
+	display: table;
+	height: 235px
+}
+
+.vip_card+div a {
+	color: #00f
+}
+
+.panel {
+	margin: 20px 0 20px 0
+}
+
+.panel h4 {
+	border-bottom: 1px solid #ccc;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.gift,
+.integral td {
+	line-height: 40px;
+	color: #505050;
+}
+
+.level i {
+	background: #ccc;
+	height: 6px;
+	display: inline-block;
+	width: 100%
+}
+
+.level i.active {
+	background: red
+}
+
+.level {
+	line-height: 40px
+}
+
+.level span {
+	color: red;
+	margin-left: 4px
+}
+
+.integral {
+	border-collapse: collapse;
+}
+
+.integral th {
+	background-color: rgb(243, 243, 243);
+}
+
+.integral td,
+.integral th {
+	height: 50px;
+	border: #CCCCCC 1px solid;
+}
+
+.list-page {
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.list-page li {
+	display: inline-block;
+	margin-left: 5px;
+}

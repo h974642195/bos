@@ -1,0 +1,1 @@
+#login{width:1000px;margin:50px auto}.information,.over,.password,.phonecheck{margin:50px auto;width:500px;padding:50px;height:150px;border:1px solid #ccc;-webkit-box-shadow:2px 4px 34px -3px #ccc;box-shadow:2px 4px 34px -3px #ccc}

@@ -1,0 +1,40 @@
+10
+
+dir
+119
+svn://svn.ibaiqiu.com/bos/shopping-sso/src/main/webapp/img
+svn://svn.ibaiqiu.com/bos
+
+
+
+2017-11-30T11:11:18.700794Z
+115
+Mate
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+700054de-3984-41db-9cc1-dc880c70dcfb
+
+detail
+dir
+
+index
+dir
+
+list
+dir
+
+shopcart
+dir
+

@@ -1,0 +1,5 @@
+com\baiqiu\manage\controller\ItemCatController.class
+com\baiqiu\manage\filter\CORSFilter.class
+com\baiqiu\manage\controller\PageController.class
+com\baiqiu\manage\mapper\UserMapper.class
+com\baiqiu\manage\controller\goodsPropertyContrroller.class

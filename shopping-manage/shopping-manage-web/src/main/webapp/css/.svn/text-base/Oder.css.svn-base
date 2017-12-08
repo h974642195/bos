@@ -1,0 +1,160 @@
+.ordertop,
+.orderlists {
+	margin-top: 20px;
+}
+
+.ordertop td>input,
+.ordertop select {
+	width: 200px;
+	height: 30px;
+}
+
+.orderlists th {
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.orderlists td {
+	border: 1px solid #ccc;
+}
+
+.order_number {
+	line-height: 60px;
+}
+
+.order_progress {
+	height: 180px;
+}
+
+.progressing {
+	display: flex;
+	min-width: 610px;
+}
+
+.step {
+	flex-basis: 17%;
+	margin-right: 0px;
+	display: inline-block;
+	position: relative;
+	-ms-flex-negative: 1;
+	flex-shrink: 1;
+}
+
+.stephead {
+	position: relative;
+}
+
+.stepline {
+	position: absolute;
+	background-color: #b4bccc;
+	top: 11px;
+	left: 0;
+	right: 0;
+}
+
+.step_line {
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	width: 0;
+	height: 0;
+}
+
+.step_pop {
+	border-radius: 50%;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+	height: 24px;
+	background: #CCCCCC;
+}
+
+.step_title {
+	font-weight: 700;
+	color: #2d2f33;
+	font-size: 18px;
+	line-height: 45px;
+}
+
+.step_time {
+	color: #CCCCCC;
+	font-size: :12px;
+	;
+}
+
+.stepactive {
+	background: red;
+}
+
+.orderdetail {
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+h3 {
+	font-weight: 600;
+	color: #3D3D3D;
+	margin: 0 0 20px 0;
+	padding-left: 0px;
+	font-size: 16px;
+}
+
+.title {
+	font-weight: 600;
+	color: #3D3D3D;
+	margin: 0 0 20px 0;
+	padding-left: 0px;
+	font-size: 15px;
+}
+
+.panal {
+	border-bottom: 1px #C0C0C0 dashed;
+	margin: 10px 0;
+	font-size: 12px;
+}
+
+.paymethod span {
+	margin-right: 50px;
+}
+
+.ordertime {
+	font-size: 12px;
+	color: #C0C0C0;
+}
+
+.ordertime time+span {
+	margin-left: 60px;
+}
+
+.panal td {
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.panal td img {
+	height: 64px;
+	width: 64px;
+	margin-right: 10px;
+	line-height: 64px;
+	background: #ccc;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 30px;
+}
+
+.paydate {
+	margin: 30px 60px 20px 0;
+	text-align: right;
+}
+
+.paydate .paided {
+	font-size: 14px;
+	color: red;
+}

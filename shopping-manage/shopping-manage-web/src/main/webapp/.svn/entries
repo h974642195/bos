@@ -1,0 +1,49 @@
+10
+
+dir
+133
+svn://svn.ibaiqiu.com/bos/shopping-manage/shopping-manage-web/src/main/webapp
+svn://svn.ibaiqiu.com/bos
+
+
+
+2017-12-07T01:43:34.583847Z
+133
+Mate
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+700054de-3984-41db-9cc1-dc880c70dcfb
+
+WEB-INF
+dir
+
+commons
+dir
+
+css
+dir
+
+font
+dir
+
+image
+dir
+
+img
+dir
+
+js
+dir
+

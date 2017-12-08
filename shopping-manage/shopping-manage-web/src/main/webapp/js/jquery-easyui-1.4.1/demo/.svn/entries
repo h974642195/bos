@@ -1,0 +1,179 @@
+10
+
+dir
+133
+svn://svn.ibaiqiu.com/bos/shopping-manage/shopping-manage-web/src/main/webapp/js/jquery-easyui-1.4.1/demo
+svn://svn.ibaiqiu.com/bos
+
+
+
+2017-11-27T08:21:04.550644Z
+67
+BruceLee
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+700054de-3984-41db-9cc1-dc880c70dcfb
+
+accordion
+dir
+
+calendar
+dir
+
+combo
+dir
+
+combobox
+dir
+
+combogrid
+dir
+
+combotree
+dir
+
+datagrid
+dir
+
+datebox
+dir
+
+datetimebox
+dir
+
+datetimespinner
+dir
+
+demo.css
+file
+
+
+
+
+2017-12-01T05:52:56.966000Z
+8113d043a314b239a346a7ff7adb185d
+2017-11-27T08:21:04.550644Z
+67
+BruceLee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+285
+
+dialog
+dir
+
+draggable
+dir
+
+droppable
+dir
+
+easyloader
+dir
+
+filebox
+dir
+
+form
+dir
+
+layout
+dir
+
+linkbutton
+dir
+
+menu
+dir
+
+menubutton
+dir
+
+messager
+dir
+
+numberbox
+dir
+
+numberspinner
+dir
+
+pagination
+dir
+
+panel
+dir
+
+progressbar
+dir
+
+propertygrid
+dir
+
+resizable
+dir
+
+searchbox
+dir
+
+slider
+dir
+
+splitbutton
+dir
+
+tabs
+dir
+
+textbox
+dir
+
+timespinner
+dir
+
+tooltip
+dir
+
+tree
+dir
+
+treegrid
+dir
+
+validatebox
+dir
+
+window
+dir
+

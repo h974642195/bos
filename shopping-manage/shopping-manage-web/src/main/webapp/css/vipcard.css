@@ -1,0 +1,89 @@
+.vip_card {
+	background-color: #a9a9a9;
+	width: 405px;
+	height: 235px;
+	border-radius: 6px;
+	color: #fff;
+	position: relative
+}
+
+.userhead img,
+.logos img {
+	width: 40px;
+	margin-top: 10px;
+}
+
+.logos .imgin,
+.userhead .imgin {
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff
+}
+
+.userhead {
+	position: absolute;
+	top: 20px;
+	left: 20px
+}
+
+.vip_card_numb {
+	position: absolute;
+	bottom: 20px;
+	left: 20px
+}
+
+.vip_card+div {
+	font-size: 14px;
+	margin-left: 20px;
+	display: table;
+	height: 235px
+}
+
+.vip_card+div a {
+	color: #00f
+}
+
+.qrcode {
+	position: absolute;
+	top: 20px;
+	right: 20px
+}
+
+.qrcode img {
+	max-width: 70px;
+	max-height: 70px;
+}
+
+
+/*vipCard end*/
+
+.vipform table td {
+	vertical-align: top;
+}
+
+.vipform table td:nth-child(1) {
+	text-align: right;
+}
+
+.nametip {
+	font-size: 12px;
+	color: red;
+	visibility: hidden;
+}
+.color-contrl{
+		padding: 0 0 0 20px;
+}
+.color-contrl ul li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #333333;
+	margin: 2px;
+}
+.chose-img td{
+	padding: 7px 0 0 20px;
+}

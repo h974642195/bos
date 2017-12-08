@@ -1,0 +1,416 @@
+/****************公共样式部分********************/
+.border-radio{
+	border: 1px #CCCCCC solid;
+	border-radius: 4px;
+}
+.tableholor{
+	background-color: rgb(242,242,242);
+}
+.tableholor th{
+	height: 45px;
+	text-align: center;
+}
+.text-top{
+	vertical-align: text-top;
+}
+.table{
+	margin-bottom: 0;
+}
+input{
+	outline:none;
+}
+.dsplayib{
+	display: inline-block;
+}
+.magl10{
+	margin-left: 10px;
+}
+.magl20{
+	margin-left: 20px;
+}
+li{
+	cursor: pointer;
+	list-style: none;
+}
+a{
+	text-decoration:none;
+	cursor: hand;
+	text-decoration:none;
+}
+*{
+	font-family: "微软雅黑";
+}
+body,ul,li,.container-fluid,.col-xs-10{
+	margin: 0;
+	padding: 0;
+}
+.tblock{
+	display: block;
+}
+.thide{
+	display: none;
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	content: "";display: block;clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(16, 142, 233);
+     border-color: #2e6da4; 
+}
+/*页码部分样式表*/
+.list-page{
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+.list-page li{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+
+/*
+ * 内容top部分样式
+ */
+#main{
+	margin-right: 10px;
+}
+#content-top{
+	height: 62px;
+	border: 1px #ccc solid;
+	min-width: 1100px;
+}
+.breadcrumb{
+	background: none;
+	line-height: 50px;
+	padding: 8px 15px 0 15px;
+    margin-bottom:0;
+}
+.breadcrumb a{
+	font-size: 12px;
+    color: rgb(204, 204, 204);
+}
+.breadcrumb li:last-child a{
+	font-weight: 600;
+    font-size: 18px;
+    color: rgb(101, 101, 101);
+}
+.breadcrumb>li+li:before {
+    padding: 0px 0px;
+}    
+#content-user img{
+	margin: 0 10px;
+	width: 38px;
+    height: 38px;
+}
+#content-user{
+	margin: 18px 46px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+/******************************商品列表的样式************************/
+
+#commodity-list{
+	padding-left:20px;
+}
+.commodity-list-state{
+	height: 50px;
+	line-height: 52px;
+	border-bottom:1px #C0C0C0 solid;
+}
+.commodity-list-state span{
+	cursor: pointer;
+	font-size: 16px;
+	margin-right:50px ;
+}
+.spancolor{
+    color: #15A4FA;
+}
+.commodity-list-smit,.commodity-list-make{
+	height: 70px;
+	padding-top: 20px;
+}
+.commodity-list-make-undercarriage,.commodity-list-make-delet{
+	background: none;
+	border: 1px solid #ccc;
+	width: 58px;
+	height: 28px;
+}
+
+.commodity-list-set{
+	min-width: 1100px	;
+	padding: 20px 0 0 25px;
+	height: 215px;
+	background-color: rgb(243, 243, 243);
+}
+.commodity-list-set-threeline{
+	margin-bottom: 10px;
+	height: 35px;
+}
+.commodity-list-set-table tr td{
+	padding: 5px !important;
+}
+.commodity-list-lists{
+	min-height:300px;
+	min-width: 1100px;
+ }
+.commodity-list-lists table{
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.commodity-list-lists th{
+	height:45px;
+	border: 1px solid #ccc;
+	text-align: center;
+	background-color:rgb(243, 243, 243);
+}
+.commodity-list-lists td{
+	height: 80px;
+	border: 1px solid #ccc;
+}
+
+/******************************发布商品样式************************/
+/*public*/
+.bgc{
+	background-color: rgb(242,242,242);
+	padding:20px 0 24px 10px;
+}
+.bgc b{
+	color: #333;
+}
+.release-goods>div{
+	margin-top: 10px;
+}
+/*发布流程样式*/
+.release-goods-process{
+	height: 84px;
+	padding-top: 27px;
+}
+.release-goods-process .goods-process{
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #6B6B6B;
+}
+/*基本信息样式*/
+.release-goods-bacinformat{
+	height: 245px;
+}
+.release-goods-bacinformat select{
+	width: 164px;
+	height: 30px;
+}
+.release-goods-bacinformat td{
+	height: 48px;
+}
+/*属性库存样式*/
+.release-goods-property-maint td{
+	padding: 10px;
+}
+.add-property{
+	padding: 10px;
+	background-color: #fff;
+	border: 1px #ccc solid;
+}
+.add-property p{
+	margin: 5px;
+	padding: 10px;
+	background-color: rgb(242,242,242);
+}
+/*商品信息样式*/
+.release-goods-information{
+	height:960px;
+}
+.addimg{
+	width: 151px;
+	height: 151px;
+	background-color: #fff;
+	font-size:50px;
+	line-height: 151px;
+	text-align: center;
+}
+.release-goods-information .goodsinput{
+	width: 467px;
+	height: 30px;
+}
+/*物流样式*/
+.release-goods-logistical{
+	height: 867px;
+}
+.disinput{
+	width: 50px;
+	height: 30px;
+	background-color: #C9C9C9;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+.vip-permissions{
+	width: 320px;
+	height: 28px;
+	color: rgb(102, 102, 102);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(63, 164, 237);
+	border-radius: 4px;
+	background-color: #fff;
+}
+.vip-shoose{
+	width: 320px;
+	height: 132px;
+	background-color: #fff;
+}
+.vip-shoose li{
+	height: 33px;
+	padding:2px 5px;
+	line-height: 30px;
+}
+.vip-shoose-input{
+	width: 308px;
+	height: 28px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(63, 164, 237, 1);
+	border-radius: 2px;
+	background-image: url("../img/serach.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size:20px;
+	padding-right: 20px;
+	border-radius:5px;
+}
+.vip-shoose li:nth-child(even){
+	background-color: #bce8f1;
+}
+
+/***************************************************************************************会员列表样式************************/
+.vip-list{
+	margin: 20px 0 10px 24px;
+}
+#vip-list-condition td input,#vip-list-condition select{
+	width: 134px;
+	height: 30px;
+	text-align: center;
+}
+.vip-list>p{
+	padding: 20px 0 0 0;
+}
+/*********************************************************************会员详情样式*****************************************/
+.vip-user-img{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.vip-user-img img{
+	width: 100%;
+	line-height: 90px;
+	text-indent: 14px;
+}
+/***********商品分类******************/
+.commodity1-clevl,.commodity2-clevl,.commodity3-clevl{
+	width: 28%;
+	height: 100%;
+	border-right: 1px solid #ccc;
+}
+.commodity4-clevl{
+	width: 16%;
+}
+#commodity_class {
+	margin: 20px;
+	width: 99%;
+	min-width: 1100px;
+}
+#commodity_class ul:nth-child(1) li,.commodity1-clevl ul:nth-child(2) li{
+	border-bottom: 1px solid #ccc;
+}
+#commodity_class li{
+	height: 60px;
+	color: #5E5E5E;
+	font-size: 16px;
+	line-height: 60px;
+}
+#commodity_class{
+	border: 1px #C9C9C9 solid;
+}
+#commodity_class li a{
+	width: 54px;
+	display: inline-block;
+	color: #5E5E5E;
+	text-decoration: none;
+}
+/*****************************************************************商品属性**********************************************/
+#commodity-attr {
+	min-width: 1100px;
+	margin: 20px 0 20px 20px;
+	text-align: center;
+}
+.commodity-atrr-list{
+	width: 16%;
+	border: 1px #CCCCCC solid;
+}
+.commodity-atrr-list th{
+	background-color:aliceblue;
+	text-align: center;
+	border: 1px #CCCCCC solid;	
+}
+.commodity-atrr-list td,.setcolor{
+	height: 60px;
+	border: 1px #CCCCCC solid;
+	font-weight: 600;
+	background-color:#555555 ;
+	color:#C0C0C0 ;
+}
+.commodity-atrr-list tr:last-child td{
+	font-size: 28px;
+	color:white;
+}
+.coomodity-detail{
+	margin-left: 2%;
+    width: 82%;   
+}
+.coomodity-detail th{
+	text-align: center;
+}
+.coomodity-detail>tbody>tr>td{
+	height: 50px;
+    line-height: 50px;
+}
+.coomodity-detail a{
+	margin:0 10px;
+}
+/*********************************************工作台样式************************/
+.gallery-top{
+	height: 75px;
+	padding-top:20px ;
+	font-size: 17px;
+	min-width: 1100px;
+}
+.gall-infor{
+	height: 135px;
+}
+/**vip-detail**/
+.vip-detail{
+	margin-top: 20px;
+}

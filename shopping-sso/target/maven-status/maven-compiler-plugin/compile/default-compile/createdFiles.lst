@@ -1,0 +1,9 @@
+com\baiqiu\sso\pojo\VerificationCode.class
+com\baiqiu\sso\service\UserService.class
+com\baiqiu\sso\service\SendMesService.class
+com\baiqiu\sso\controller\UserController.class
+com\baiqiu\sso\pojo\User.class
+com\baiqiu\sso\service\impl\SendMesServiceImpl.class
+com\baiqiu\sso\mapper\UserMapper.class
+com\baiqiu\sso\service\impl\UserServiceImpl.class
+com\baiqiu\sso\request\SmsRequest.class
